@@ -4109,3 +4109,41 @@ input, select, textarea {
 		}
 
 	}
+
+.skills{
+  flex-flow: wrap;
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: left;
+}
+
+.skill-item {
+  list-style: none;
+  padding: 20px;
+}
+
+.skill-pic{
+  height: 150px;
+}
+
+.edu-ul{
+  list-style: none;
+}
+
+.edu-li{
+  margin-top: 18px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.edu-img{
+  height: 60px;
+  padding-right: 25px;
+}
+.edu-li-describe{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
