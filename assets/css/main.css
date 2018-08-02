@@ -3768,7 +3768,7 @@ input, select, textarea {
 				}
 
 			.wrapper.spotlight .content {
-				width: 100%;
+				width: 200%;
 				-ms-flex: 2;
 			}
 
@@ -4146,4 +4146,8 @@ input, select, textarea {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+}
+
+#skill-logos{
+  width: 100%;
 }

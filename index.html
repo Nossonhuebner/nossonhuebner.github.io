@@ -30,19 +30,16 @@
           <h2>Menu</h2>
           <ul class="links">
             <li>
-              <a href="index.html">Home</a>
+              <a href="#banner">Back To Top</a>
             </li>
             <li>
-              <a href="generic.html">Generic</a>
+              <a href="#two">Skills</a>
             </li>
             <li>
-              <a href="elements.html">Elements</a>
+              <a href="#four">Recent Projects</a>
             </li>
             <li>
-              <a href="#">Log In</a>
-            </li>
-            <li>
-              <a href="#">Sign Up</a>
+              <a href="#footer">Contact</a>
             </li>
           </ul>
           <a href="#" class="close">Close</a>
@@ -71,14 +68,13 @@
               <h2 class="major">About me</h2>
               <p>I am a software developer with experience in Ruby, Rails, JavaScript, React, and Redux. I'm enjoy problem solving, debugging, and tackling a difficult challenge. I particularly enjoy collaborating on a team and pair programming. I'm always down
                 for an opportunity do dive into a new language, framework, or technique.</p>
-              <a href="#" class="special">Learn more</a>
             </div>
           </div>
         </section>
 
         <!-- Two -->
         <section id="two" class="wrapper alt spotlight style2">
-          <div class="inner">
+          <div id="skill-logos" class="inner">
             <a href="#" class="image"><img src="images/pic02.jpg" alt=""/></a>
             <div class="content">
               <h2 class="major">Skills</h2>
@@ -117,37 +113,14 @@
                   <img class="skill-pic" src="images/github-512.png" alt="github">
                 </li>
               </ul>
-              <a href="#" class="special">Learn more</a>
             </div>
           </div>
         </section>
 
         <!-- Three -->
-        <section id="three" class="wrapper spotlight style3">
-          <div class="inner">
-            <a href="#" class="image"><img src="images/pic03.jpg" alt=""/></a>
-            <div class="content">
-              <h2 class="major">Education</h2>
-              <ul class="edu-ul">
-                <li class="edu-li">
-                  <img class="edu-img" src="images/yttl-logo.png" alt="yttl">
-                  <div class="edu-li-describe">
-                    <h3>United Lubavitcher Yeshivoth</h3>
-                    <p>- BA Talmud and Jewish Law</p>
-                  </div>
-                </li>
-                <li class="edu-li">
-                  <img class="edu-img" src="images/aa-logo.png" alt="aa">
-                  <div class="edu-li-describe">
-                    <h3>App Academy</h3>
-                    <p>- Fullstack Development</p>
-                  </div>
-                </li>
-              </ul>
-              <a href="#" class="special">Learn more</a>
-            </div>
-          </div>
-        </section>
+        <!-- <section id="three" class="wrapper spotlight style3"> <div class="inner"> <a href="#" class="image"><img src="images/pic03.jpg" alt=""/></a> <div class="content"> <h2 class="major">Education</h2> <ul class="edu-ul"> <li class="edu-li"> <img
+        class="edu-img" src="images/yttl-logo.png" alt="yttl"> <div class="edu-li-describe"> <h3>United Lubavitcher Yeshivoth</h3> <p>- BA Talmud and Jewish Law</p> </div> </li> <li class="edu-li"> <img class="edu-img" src="images/aa-logo.png" alt="aa"> <div
+        class="edu-li-describe"> <h3>App Academy</h3> <p>- Fullstack Development</p> </div> </li> </ul> <a href="#" class="special">Learn more</a> </div> </div> </section> -->
 
         <!-- Four -->
         <section id="four" class="wrapper alt style1">
@@ -156,21 +129,21 @@
             <p>Here are a few of my most recent projects. Enjoy!</p>
             <section class="features">
               <article>
-                <a href="#" class="image"><img src="images/crowdsound-shot.png" alt="crowd-sound"/></a>
+                <a href="https://crowd-sound.herokuapp.com" class="image"><img src="images/crowdsound-shot.png" alt="crowd-sound"/></a>
                 <h3 class="major">CrowdSound</h3>
                 <p>A SoundCloud-inspired site built with Ruby on Rails, PostgreSQL, React.js and Redux</p>
                 <a href="https://crowd-sound.herokuapp.com" class="special">Live</a>
                 <a href="https://github.com/Nossonhuebner/CrowdSound" class="special">Github</a>
               </article>
               <article>
-                <a href="#" class="image"><img src="images/anerds-shot.png" alt="angry-nerds"/></a>
+                <a href="http://nossonhuebner.com/AngryNerds/" class="image"><img src="images/anerds-shot.png" alt="angry-nerds"/></a>
                 <h3 class="major">Angry Nerds</h3>
                 <p>An Angry Birds inspired game built using canvas and JavaScript</p>
                 <a href="http://nossonhuebner.com/AngryNerds/" class="special">Live</a>
                 <a href="https://github.com/Nossonhuebner/AngryNerds" class="special">Github</a>
               </article>
               <article>
-                <a href="#" class="image"><img src="images/chess-shot.png" alt="chess"/></a>
+                <a href="https://github.com/Nossonhuebner/chess-mate" class="image"><img src="images/chess-shot.png" alt="chess"/></a>
                 <h3 class="major">Chess</h3>
                 <p>A chess game for the console, built in Ruby</p>
                 <a href="https://github.com/Nossonhuebner/chess-mate" class="special">Github</a>
@@ -187,25 +160,8 @@
         <div class="inner">
           <h2 class="major">Get in touch</h2>
           <p></p>
-          <form method="post" action="#">
-            <div class="fields">
-              <div class="field">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name"/>
-              </div>
-              <div class="field">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email"/>
-              </div>
-              <div class="field">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="4"></textarea>
-              </div>
-            </div>
-            <ul class="actions">
-              <li><input type="submit" value="Send Message"/></li>
-            </ul>
-          </form>
+          <!-- <form method="post" action="#"> <div class="fields"> <div class="field"> <label for="name">Name</label> <input type="text" name="name" id="name"/> </div> <div class="field"> <label for="email">Email</label> <input type="email" name="email"
+          id="email"/> </div> <div class="field"> <label for="message">Message</label> <textarea name="message" id="message" rows="4"></textarea> </div> </div> <ul class="actions"> <li><input type="submit" value="Send Message"/></li> </ul> </form> -->
           <ul class="contact">
             <li class="fa-home">
               Nosson Huebner<br/>
@@ -214,7 +170,7 @@
             </li>
             <li class="fa-phone">(347) 994-8329</li>
             <li class="fa-envelope">
-              <a href="#">nossonhuebner@gmail.com</a>
+              <a href="mailto:nossonhuebner@email.com">nossonhuebner@gmail.com</a>
             </li>
           </ul>
           <ul class="copyright">
