@@ -2366,7 +2366,6 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
-    padding-right: 8px;
 	}
 
 		.icon:before {
